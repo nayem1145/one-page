@@ -1,0 +1,219 @@
+
+@media (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 992px) {
+
+	.header {
+		position: relative;
+	}
+	.header .menu-bar {
+		display: block;
+	}
+	.header .navigation-menu .nav {
+		display: inline-flex;
+	}
+	.header .navigation-menu .nav ul {
+		display: block;
+		width: 100%;
+	}
+	.header .navigation-menu ul li {
+		float: none;
+		width: 100%;
+		border-bottom: 1px dotted #ddd;
+	}
+	.header .navigation-menu ul li a {
+		width: 100%;
+		display: block;
+		text-align: left;
+	}
+	.header .navigation-menu ul li.active a::after {
+		left: 0;
+		width: 100%;
+	}
+	.header .navigation-menu .nav {
+		position: absolute;
+		top: 25px;
+		left: 50%;
+		background: #fff;
+		z-index: 999;
+		padding: 0 18px 0 0;
+		box-shadow: 0px 0px 12px #666666;
+		transform: translateX(-50%);
+		display: none;
+	}
+	.banner-section .banner-content h1 {
+		font-size: 75px;
+	}
+	.banner-section .banner-content h3 {
+		font-size: 45px;
+	}
+	.about-us .about-bottom .about-bottom-content {
+		margin: 0;
+	}
+	.services .title h2 {
+		font-size: 70px;
+	}
+	.portfolio .portfolio-title h2 {
+		font-size: 70px;
+	}
+	.testimonial .testimonial-content .testlogo img {
+		width: 95%;
+	}
+	.testimonial .testimonial-content .clients-content {
+		padding: 21px;
+		margin: 0;
+		margin-top: 30px;
+	}
+	.testimonial .testimonial-content .title h2 {
+		font-size: 60px;
+	}
+	.testimonial .testimonial-content .clients-content p {
+		font-size: 14px;
+	}
+	.contact .contact-form {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.contact .contact-info {
+		padding: 30px;
+	}
+	.contact .contact-info h2 {
+		font-size: 36px;
+	}
+	.contact .contact-info h3 {
+		font-size: 25px;
+	}
+	.footer h3 {
+		font-size: 21px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.banner-section .banner-content h1 {
+		font-size: 62px;
+	}
+	.banner-section .banner-content h3 {
+		font-size: 40px;
+	}
+	.about-us .about-right h2 {
+		font-size: 50px;
+	}
+	.about-us .about-right h3 {
+		font-size: 21px;
+	}
+	.about-us .about-bottom {
+		margin-top: 0;
+		padding-bottom: 0;
+	}
+	.about-us .about-bottom .about-bottom-content {
+		margin-bottom: 30px;
+		border-radius: 6px;
+	}
+	.team-section .team-content h1 {
+		font-size: 62px;
+	}
+	.services .service-content {
+		/*text-align: center;*/
+	}
+	.services .service-content .service-logo img {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.call-to-action .banner-content h1 {
+		font-size: 42px;
+	}
+	.call-to-action .banner-content h3 {
+		font-size: 35px;
+	}
+	.call-to-action .banner-content a {
+		font-size: 14px;
+		padding: 12px 46px;
+	}
+	.testimonial .testimonial-content .title h2 {
+		font-size: 70px;
+	}
+	.testimonial .testimonial-content .testlogo img {
+		display: none;
+	}
+	.testimonial .testimonial-content .title h2 {
+		margin-left: 0;
+	}
+	.testimonial .testimonial-content .clients-content {
+		margin-bottom: 30px;
+	}
+	.testimonial .testimonial-content .clients-content .client-img {
+		text-align: center;
+	}
+	.testimonial .testimonial-content .clients-content .client-designation {
+		text-align: center;
+	}
+	.testimonial .testimonial-content {
+		padding-bottom: 25px;
+	}
+	.testimonial {
+		height: 800px;
+	}
+	.contact .contact-form {
+		position: initial;
+	}
+	.footer .footer-first-widget {
+		padding: 0;
+	}
+
+
+@media screen and (max-width: 576px){
+	.banner-section .banner-content h1 {
+		font-size: 56px;
+	}
+	.team-section .team-content h1 {
+		font-size: 50px;
+		margin-left: 0;
+	}
+	.services .title {
+		background-position: 0px 0px;
+		padding: 30px 0;
+	}
+	.services .title h2 {
+		margin-left: 0;
+	}
+	.services .service-content {
+		text-align: center;
+	}
+	.portfolio .portfolio-title {
+		background-position: 0px 0px;
+		padding: 30px 0;
+	}
+	.portfolio .portfolio-title h2 {
+		margin-left: 0;
+		font-size: 40px;
+	}
+	.background-banner {
+		height: 100px;
+	}
+	.testimonial .testimonial-content .title h2 {
+		font-size: 45px;
+	}
+	.testimonial .testimonial-content {
+		width: 96%;
+	}
+	.contact .contact-info {
+		padding-left: 0;
+	}
+	.about-us .about-right h2 {
+		font-size: 40px;
+		margin-top: 21px;
+	}
+	.team-section .team-content h1 {
+		font-size: 40px;
+		margin-left: 0;
+		margin-top: 122px;
+	}
+	.services .title h2 {
+		margin-left: 0;
+		font-size: 40px;
+		margin-top: -15px;
+	}
+	
+}
