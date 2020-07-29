@@ -259,6 +259,38 @@ body {
 .team-section .team-content .slider {
     padding: 50px;
 }
+.team-section .owl-carousel {
+    position: relative;
+}
+.team-section .owl-carousel .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: -50px !important;
+    transform: translateY(-100%);
+}
+.team-section .owl-carousel .owl-next {
+    position: absolute;
+    top: 50%;
+    right: -50px !important;
+    transform: translateY(-100%);
+}
+.team-section .owl-carousel .owl-prev span, 
+.team-section .owl-carousel .owl-next span {
+    padding: 0px 15px 6px 15px;
+    font-size: 25px;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+}
+.team-section .owl-carousel .owl-prev span:hover, 
+.team-section .owl-carousel .owl-next span:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+.team-section .owl-carousel .owl-prev:focus,
+.team-section .owl-carousel .owl-next:focus {
+    outline: none !important;
+}
 .team-section .team-content .slider img {
     width: 100%;
     height: auto;
